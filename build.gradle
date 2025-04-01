@@ -32,6 +32,8 @@ dependencies {
     testImplementation('org.junit.jupiter:junit-jupiter:5.11.4',
             'com.codeborne:selenide:7.7.1',
             'org.assertj:assertj-core:3.27.3',
+            'io.appium:java-client:9.4.0',
+            'commons-io:commons-io:2.18.0',
             "io.rest-assured:rest-assured:5.5.1",
             "org.jsoup:jsoup:1.19.1",
             'io.qameta.allure:allure-selenide:2.29.1',
@@ -53,5 +55,10 @@ tasks.withType(Test) {
 task api_tests(type: Test) {
     useJUnitPlatform {
         includeTags("api")
+    }
+}
+task ui_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("ui")
     }
 }
