@@ -1,6 +1,7 @@
 package ui;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
+import helpers.WebTestBase;
 import io.qameta.allure.Owner;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.DisplayName;
@@ -12,7 +13,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
 
-public class NavigateToContactPageShouldDisplayContactUsSection {
+public class NavigateToContactPageShouldDisplayContactUsSection extends WebTestBase {
 
     @DisplayName("Contact menu item should navigate to the correct section")
     @Tags({@Tag("ui"), @Tag("contact"), @Tag("navigate")})

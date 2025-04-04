@@ -1,13 +1,12 @@
 package mobile.androidStudio;
 
 import com.codeborne.selenide.Condition;
+import helpers.AndroidTestBase;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
-
-import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.*;
 

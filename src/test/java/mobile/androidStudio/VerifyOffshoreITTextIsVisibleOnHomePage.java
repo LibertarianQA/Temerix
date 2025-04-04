@@ -1,6 +1,7 @@
 package mobile.androidStudio;
 
 import com.codeborne.selenide.Condition;
+import helpers.AndroidTestBase;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
