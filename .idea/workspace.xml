@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/helpers/CustomAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomAllureListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +217,7 @@
       <workItem from="1743430382584" duration="1910000" />
       <workItem from="1743548392467" duration="1493000" />
       <workItem from="1743640558157" duration="1433000" />
-      <workItem from="1743778683419" duration="3633000" />
+      <workItem from="1743778683419" duration="5193000" />
     </task>
     <servers />
   </component>
