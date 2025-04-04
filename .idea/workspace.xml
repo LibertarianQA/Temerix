@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/WebTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/AndroidTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyOffshoreITTextIsVisibleOnHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyOffshoreITTextIsVisibleOnHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/WebTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/WebTestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +225,7 @@
       <workItem from="1743430382584" duration="1910000" />
       <workItem from="1743548392467" duration="1493000" />
       <workItem from="1743640558157" duration="1433000" />
-      <workItem from="1743778683419" duration="6175000" />
+      <workItem from="1743778683419" duration="6561000" />
     </task>
     <servers />
   </component>

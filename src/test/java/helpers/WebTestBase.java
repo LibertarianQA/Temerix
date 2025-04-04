@@ -13,7 +13,7 @@ public class WebTestBase {
     static public void beforeAll() {
         Configuration.baseUrl = "https://www.visahq.com/";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "126.0");
+        Configuration.browserVersion = System.getProperty("browserVersion", "127.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.remote = System.getProperty("remoteURL");
         DesiredCapabilities capabilities = new DesiredCapabilities();
