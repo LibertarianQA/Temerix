@@ -1,11 +1,12 @@
 plugins {
     id 'java'
-    id("io.qameta.allure") version "2.12.0"
+    id('io.qameta.allure') version '2.12.0'
 }
 
 group 'com.temerix'
 version '1.0-SNAPSHOT'
 
+def allureVersion = "2.19.0"
 allure {
     report {
         version.set("2.19.0")
@@ -31,6 +32,8 @@ compileTestJava {
 dependencies {
     testImplementation('org.junit.jupiter:junit-jupiter:5.11.4',
             'com.codeborne:selenide:7.7.1',
+            "io.qameta.allure:allure-rest-assured:$allureVersion",
+            "io.qameta.allure:allure-selenide:$allureVersion",
             'org.assertj:assertj-core:3.27.3',
             'io.appium:java-client:9.4.0',
             'commons-io:commons-io:2.18.0',
@@ -60,5 +63,10 @@ task api_tests(type: Test) {
 task ui_tests(type: Test) {
     useJUnitPlatform {
         includeTags("ui")
+    }
+}
+task ui_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("mobile")
     }
 }

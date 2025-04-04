@@ -29,7 +29,7 @@ public class PageShouldContainExpectedContactHref {
         var contactLink = doc.select("a[href*='contact']").first();
         assertNotNull(contactLink);
         String contactHref = contactLink.attr("href");
-        assertTrue(contactHref.contains("#contact"), "Значение href должно содержать '#contact'");
+        assertTrue(contactHref.contains("#contact"), "The href value must contain '#contact'");
     }
 
 }

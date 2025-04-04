@@ -1,6 +1,8 @@
 package ui;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Owner;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
@@ -17,6 +19,8 @@ public class NavigateToContactPageShouldDisplayContactUsSection {
     @Owner("Zhuravskyi M.")
     @Test
     void navigateToContactPageShouldDisplayContactUsSection(){
+        SelenideLogger.addListener("allure", new AllureSelenide());
+
         open("https://temerix.com");
         $("[data-menuanchor='contact']").click();
         webdriver().shouldHave(url("https://temerix.com/#contact"));

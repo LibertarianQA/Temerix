@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="temerix" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="temerix" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="temerix" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,7 +89,28 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.temerix [ui_tests]">
+  <component name="RunManager" selected="Gradle.temerix [allureServe]">
+    <configuration name="temerix [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="temerix [api_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,6 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.temerix [allureServe]" />
         <item itemvalue="Gradle.temerix [ui_tests]" />
         <item itemvalue="Gradle.temerix [api_tests]" />
       </list>
@@ -117,7 +170,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743430380734</updated>
       <workItem from="1743430382584" duration="1910000" />
-      <workItem from="1743548392467" duration="363000" />
+      <workItem from="1743548392467" duration="1493000" />
+      <workItem from="1743640558157" duration="1433000" />
     </task>
     <servers />
   </component>
