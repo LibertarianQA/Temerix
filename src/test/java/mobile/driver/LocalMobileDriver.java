@@ -32,8 +32,7 @@ public class LocalMobileDriver implements WebDriverProvider {
                 .setDeviceName("Pixel 8 API 33")
                 .setPlatformVersion("13.0")
                 .setAppPackage("com.android.chrome")
-                .setAppActivity("com.google.android.apps.chrome.Main")
-                .setCapability("appium:automationName", "UiAutomator2");
+                .setAppActivity("com.google.android.apps.chrome.Main");
 
         return new AndroidDriver(getAppiumServerUrl(), options);
     }
