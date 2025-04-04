@@ -7,10 +7,11 @@
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpers/CustomAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomAllureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/AndroidTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,7 @@
       <recent name="D:\Programs\IDEA\temerix\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\IDEA\temerix\src\test\java" />
       <recent name="D:\Programs\IDEA\temerix\src\test\java\ui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -90,6 +92,52 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.temerix [allureServe]">
+    <configuration name="VerifyMobileAppsDevelopmentTextAppearsAfterScrolling" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":mobile_tests" />
+            <option value="--tests" />
+            <option value="&quot;mobile.androidStudio.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":mobile_tests" />
+            <option value="--tests" />
+            <option value="&quot;mobile.androidStudio.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="temerix [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,7 +159,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="temerix [api_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="temerix [mobile_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,7 +170,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="api_tests" />
+            <option value="mobile_tests" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,8 +204,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.temerix [allureServe]" />
+        <item itemvalue="Gradle.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" />
+        <item itemvalue="Gradle.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling" />
+        <item itemvalue="Gradle.temerix [mobile_tests]" />
         <item itemvalue="Gradle.temerix [ui_tests]" />
-        <item itemvalue="Gradle.temerix [api_tests]" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +222,7 @@
       <workItem from="1743430382584" duration="1910000" />
       <workItem from="1743548392467" duration="1493000" />
       <workItem from="1743640558157" duration="1433000" />
+      <workItem from="1743778683419" duration="3633000" />
     </task>
     <servers />
   </component>

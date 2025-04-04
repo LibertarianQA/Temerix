@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.$x;
-import static com.codeborne.selenide.Selenide.open;
+import java.time.Duration;
+
+import static com.codeborne.selenide.Selenide.*;
 
 public class VerifyMobileAppsDevelopmentTextAppearsAfterScrolling extends AndroidTestBase {
-
 
     @DisplayName("Verify 'Mobile apps development' text appears after scrolling")
     @Tags({@Tag("mobile"), @Tag("android")})
@@ -20,10 +20,10 @@ public class VerifyMobileAppsDevelopmentTextAppearsAfterScrolling extends Androi
     void verifyMobileAppsDevelopmentTextAppearsAfterScrolling() {
         open("https://temerix.com/");
         androidActions.closeChromePopupIfPresent();
+        androidActions.waitForElementVisible("//android.widget.TextView[@text='WHAT DO WE DO?']");
         androidActions.swipeDown();
         androidActions.swipeDown();
         $x("//android.widget.TextView[@text='Mobile apps development']")
                 .shouldBe(Condition.visible);
     }
-
 }

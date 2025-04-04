@@ -1,4 +1,4 @@
-package Temerix.helpers;
+package helpers;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 

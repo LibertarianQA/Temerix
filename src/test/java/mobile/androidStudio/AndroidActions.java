@@ -1,5 +1,6 @@
 package mobile.androidStudio;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.WebDriverRunner;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
@@ -10,6 +11,7 @@ import java.time.Duration;
 import java.util.Arrays;
 
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$x;
 
 public class AndroidActions {
     public void closeChromePopupIfPresent() {
@@ -34,4 +36,7 @@ public class AndroidActions {
         androidDriver.perform(Arrays.asList(swipe));
     }
 
+    public void waitForElementVisible(String xpath) {
+        $x(xpath).shouldBe(Condition.visible, Duration.ofSeconds(10));
+    }
 }

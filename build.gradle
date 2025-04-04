@@ -65,7 +65,7 @@ task ui_tests(type: Test) {
         includeTags("ui")
     }
 }
-task ui_tests(type: Test) {
+task mobile_tests(type: Test) {
     useJUnitPlatform {
         includeTags("mobile")
     }
