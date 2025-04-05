@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/WebTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/WebTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,30 +95,7 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage">
-    <configuration name="VerifyMobileAppsDevelopmentTextAppearsAfterScrolling" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":mobile_tests" />
-            <option value="--tests" />
-            <option value="&quot;mobile.androidStudio.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.temerix [allureServe]">
     <configuration name="VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,7 +163,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="temerix [mobile_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="temerix [api_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +174,28 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="mobile_tests" />
+            <option value="api_tests" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="temerix [ui_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="ui_tests" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage" />
         <item itemvalue="Gradle.temerix [allureServe]" />
+        <item itemvalue="Gradle.temerix [ui_tests]" />
+        <item itemvalue="Gradle.temerix [api_tests]" />
+        <item itemvalue="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage" />
         <item itemvalue="Gradle.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" />
-        <item itemvalue="Gradle.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling" />
-        <item itemvalue="Gradle.temerix [mobile_tests]" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +226,9 @@
       <workItem from="1743430382584" duration="1910000" />
       <workItem from="1743548392467" duration="1493000" />
       <workItem from="1743640558157" duration="1433000" />
-      <workItem from="1743778683419" duration="8404000" />
+      <workItem from="1743778683419" duration="8748000" />
+      <workItem from="1743819161408" duration="1805000" />
+      <workItem from="1743858619526" duration="1526000" />
     </task>
     <servers />
   </component>
