@@ -42,7 +42,9 @@ public static URL getAppiumServerUrl() {
                 .setDeviceName("Pixel 8 API 33")
                 .setPlatformVersion("13.0")
                 .setAppPackage("com.android.chrome")
-                .setAppActivity("com.google.android.apps.chrome.Main");
+                .setAppActivity("com.google.android.apps.chrome.Main")
+                .setCapability("noReset", true);
+
 
         return new AndroidDriver(getAppiumServerUrl(), options);
     }
