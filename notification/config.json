@@ -1,0 +1,19 @@
+{
+  "base": {
+    "logo": "",
+    "project": "Temerix",
+    "environment": "LocalPC",
+    "comment": "Deadline is coming!",
+    "reportLink": "https://github.com/LibertarianQA/Temerix",
+    "language": "en",
+    "allureFolder": "allure-report/",
+    "enableChart": true,
+    "enableSuitesPublishing": false
+  },
+  "telegram": {
+    "token": "YOUR_tokenID",
+    "chat": "YOUR_chatID",
+    "replyTo": "",
+    "templatePath": "/templates/telegram.ftl"
+  }
+}

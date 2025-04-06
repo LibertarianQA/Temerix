@@ -21,16 +21,6 @@ public class LocalMobileDriver implements WebDriverProvider {
             throw new RuntimeException(e);
         }
     }
-//public static URL getAppiumServerUrl() {
-//    String url = System.getProperty("JenkinsAppium", "http://localhost:4723/");
-//    System.out.println(">>> Using Appium server URL: " + url);
-//    try {
-//        return new URL(url);
-//    } catch (MalformedURLException e) {
-//        throw new RuntimeException(e);
-//    }
-//}
-
 
     @Override
     public WebDriver createDriver(Capabilities capabilities) {
