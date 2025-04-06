@@ -14,22 +14,22 @@ import static io.appium.java_client.remote.MobilePlatform.ANDROID;
 
 public class LocalMobileDriver implements WebDriverProvider {
 
-//    public static URL getAppiumServerUrl() {
-//        try {
-//            return new URL(System.getProperty("AppiumURL", "http://localhost:4723"));
-//        } catch (MalformedURLException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
-public static URL getAppiumServerUrl() {
-    String url = System.getProperty("JenkinsAppium", "http://localhost:4723/");
-    System.out.println(">>> Using Appium server URL: " + url);
-    try {
-        return new URL(url);
-    } catch (MalformedURLException e) {
-        throw new RuntimeException(e);
+    public static URL getAppiumServerUrl() {
+        try {
+            return new URL(System.getProperty("AppiumURL", "http://localhost:4723"));
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
     }
-}
+//public static URL getAppiumServerUrl() {
+//    String url = System.getProperty("JenkinsAppium", "http://localhost:4723/");
+//    System.out.println(">>> Using Appium server URL: " + url);
+//    try {
+//        return new URL(url);
+//    } catch (MalformedURLException e) {
+//        throw new RuntimeException(e);
+//    }
+//}
 
 
     @Override
@@ -42,9 +42,7 @@ public static URL getAppiumServerUrl() {
                 .setDeviceName("Pixel 8 API 33")
                 .setPlatformVersion("13.0")
                 .setAppPackage("com.android.chrome")
-                .setAppActivity("com.google.android.apps.chrome.Main")
-                .setCapability("noReset", true);
-
+                .setAppActivity("com.google.android.apps.chrome.Main");
 
         return new AndroidDriver(getAppiumServerUrl(), options);
     }
