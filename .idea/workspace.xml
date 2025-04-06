@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" afterDir="false" />
-    </list>
+    <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage">
-    <configuration name="VerifyOffshoreITTextIsVisibleOnHomePage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -107,7 +104,7 @@
           <list>
             <option value=":mobile_tests" />
             <option value="--tests" />
-            <option value="&quot;mobile.androidStudio.VerifyOffshoreITTextIsVisibleOnHomePage&quot;" />
+            <option value="&quot;mobile.androidStudio.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,10 +203,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage" />
+        <item itemvalue="Gradle.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" />
         <item itemvalue="Gradle.temerix [allureServe]" />
         <item itemvalue="Gradle.temerix [ui_tests]" />
         <item itemvalue="Gradle.temerix [api_tests]" />
-        <item itemvalue="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +224,7 @@
       <workItem from="1743778683419" duration="8748000" />
       <workItem from="1743819161408" duration="1805000" />
       <workItem from="1743858619526" duration="3939000" />
-      <workItem from="1743941630444" duration="2256000" />
+      <workItem from="1743941630444" duration="2591000" />
     </task>
     <servers />
   </component>
