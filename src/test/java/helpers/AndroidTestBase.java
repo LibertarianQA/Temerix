@@ -25,6 +25,7 @@ public class AndroidTestBase {
      void addListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         androidActions = new AndroidActions();
+        Configuration.browser = LocalMobileDriver.class.getName();
     }
 
     @AfterEach
