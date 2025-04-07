@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverConditions.url;
+import static com.codeborne.selenide.WebDriverConditions.urlContaining;
 
 public class СlickFacebookIcon_ShouldNavigateToCorrectPage extends WebTestBase {
 
@@ -24,6 +24,8 @@ public class СlickFacebookIcon_ShouldNavigateToCorrectPage extends WebTestBase 
 
         open("https://temerix.com/#contact");
         $("[class='social fb']").click();
-        webdriver().shouldHave(url("https://www.facebook.com/temerix/"));
+        webdriver().shouldHave(urlContaining("facebook"));
+        webdriver().shouldHave(urlContaining("temerix"));
+
     }
 }

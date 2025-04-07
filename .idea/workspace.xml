@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notification/allure-notifications-4.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/driver/LocalMobileDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
       <recent name="D:\Programs\IDEA\temerix\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\IDEA\temerix\src\test\resources\tpl" />
       <recent name="D:\Programs\IDEA\temerix\notification" />
       <recent name="D:\Programs\IDEA\temerix\src\test\java\notifications" />
       <recent name="D:\Programs\IDEA\temerix\src\test\java" />
@@ -232,7 +234,10 @@
       <workItem from="1743819161408" duration="1805000" />
       <workItem from="1743858619526" duration="3939000" />
       <workItem from="1743941630444" duration="4373000" />
-      <workItem from="1743957196003" duration="4776000" />
+      <workItem from="1743957196003" duration="9538000" />
+      <workItem from="1744016156007" duration="840000" />
+      <workItem from="1744042538717" duration="965000" />
+      <workItem from="1744043517097" duration="3847000" />
     </task>
     <servers />
   </component>

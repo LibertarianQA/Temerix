@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
+import static helpers.CustomAllureListener.withCustomTemplates;
+
 public class RestrictedPageShouldReturn404 {
 
 
@@ -18,6 +20,7 @@ public class RestrictedPageShouldReturn404 {
     @Test
     void restrictedPageShouldReturn404() {
         RestAssured.given()
+                .filter(withCustomTemplates())
                 .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
                 .get("https://temerix.com/admin")
                 .then()

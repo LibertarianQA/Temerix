@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
+import static helpers.CustomAllureListener.withCustomTemplates;
+
 public class shouldRedirectToHttps {
 
     @DisplayName("Should return status code 301")
@@ -17,6 +19,7 @@ public class shouldRedirectToHttps {
     @Test
     void shouldRedirectToHttps() {
         RestAssured.given()
+                .filter(withCustomTemplates())
                 .redirects().follow(false)
                 .get("http://temerix.com")
                 .then()

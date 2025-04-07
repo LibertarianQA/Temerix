@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
+import static helpers.CustomAllureListener.withCustomTemplates;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MetaTagApiTest {
@@ -21,6 +22,7 @@ public class MetaTagApiTest {
     @Test
     void descriptionMetaTagShouldBeCorrect() {
         Response response = RestAssured.given()
+                .filter(withCustomTemplates())
                 .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
                 .get("https://temerix.com/");
         assertEquals(200, response.getStatusCode());

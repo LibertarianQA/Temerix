@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
+import static helpers.CustomAllureListener.withCustomTemplates;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PageShouldContainExpectedContactHref {
@@ -22,6 +23,7 @@ public class PageShouldContainExpectedContactHref {
     @Test
     void pageShouldContainExpectedContactHref() {
         Response response = RestAssured.given()
+                .filter(withCustomTemplates())
                 .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
                 .get("https://temerix.com/");
         assertEquals(200, response.getStatusCode(), "expected status code 200 ");
