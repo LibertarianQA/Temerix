@@ -21,7 +21,6 @@ public class NavigateToContactPageShouldDisplayContactUsSection extends WebTestB
     @Owner("Zhuravskyi M.")
     @Test
     void navigateToContactPageShouldDisplayContactUsSection() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Open the home page", () -> {
             open("https://temerix.com");

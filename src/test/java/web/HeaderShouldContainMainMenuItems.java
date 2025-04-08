@@ -22,7 +22,6 @@ public class HeaderShouldContainMainMenuItems extends WebTestBase {
 
     @Test
     void headerShouldContainMainMenuItems() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Open the home page", () -> {
             open("https://temerix.com");

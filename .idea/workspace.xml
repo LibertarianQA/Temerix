@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/HeaderShouldContainMainMenuItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/HeaderShouldContainMainMenuItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/NavigateToContactPageShouldDisplayContactUsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/NavigateToContactPageShouldDisplayContactUsSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +37,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="temerix" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="temerix" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -232,7 +229,7 @@
       <workItem from="1744016156007" duration="840000" />
       <workItem from="1744042538717" duration="965000" />
       <workItem from="1744043517097" duration="4421000" />
-      <workItem from="1744059710731" duration="10925000" />
+      <workItem from="1744059710731" duration="17024000" />
     </task>
     <servers />
   </component>

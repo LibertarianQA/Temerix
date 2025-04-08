@@ -22,7 +22,6 @@ public class СlickFacebookIcon_ShouldNavigateToCorrectPage extends WebTestBase 
 
     @Test
     void navigateToContactPageShouldDisplayContactUsSection() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Open the home page", () -> {
             open("https://temerix.com");
