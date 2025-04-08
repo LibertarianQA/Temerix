@@ -1,4 +1,4 @@
-package ui;
+package web;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.WebTestBase;
@@ -15,7 +15,7 @@ import static com.codeborne.selenide.WebDriverConditions.urlContaining;
 public class СlickFacebookIcon_ShouldNavigateToCorrectPage extends WebTestBase {
 
     @DisplayName("User should be redirected to the Facebook page after clicking the icon")
-    @Tags({@Tag("ui"), @Tag("footer")})
+    @Tags({@Tag("web"), @Tag("footer")})
     @Owner("Zhuravskyi M.")
 
     @Test

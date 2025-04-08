@@ -1,4 +1,4 @@
-package ui;
+package web;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.WebTestBase;
@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class HeaderShouldContainMainMenuItems extends WebTestBase {
 
     @DisplayName("Main menu in the header should contain expected sections")
-    @Tags({@Tag("ui"), @Tag("header"), @Tag("navigate")})
+    @Tags({@Tag("web"), @Tag("header"), @Tag("navigate")})
     @Owner("Zhuravskyi M.")
 
     @Test

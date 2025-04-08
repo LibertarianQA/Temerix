@@ -1,4 +1,4 @@
-package ui;
+package web;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.WebTestBase;
@@ -16,7 +16,7 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 public class NavigateToContactPageShouldDisplayContactUsSection extends WebTestBase {
 
     @DisplayName("Contact menu item should navigate to the correct section")
-    @Tags({@Tag("ui"), @Tag("contact"), @Tag("navigate")})
+    @Tags({@Tag("web"), @Tag("contact"), @Tag("navigate")})
     @Owner("Zhuravskyi M.")
     @Test
     void navigateToContactPageShouldDisplayContactUsSection(){

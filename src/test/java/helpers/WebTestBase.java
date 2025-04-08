@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
+
+
 public class WebTestBase {
     @BeforeAll
     static public void beforeAll() {
@@ -16,12 +18,6 @@ public class WebTestBase {
         Configuration.browserVersion = System.getProperty("browserVersion", "135.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.remote = System.getProperty("remoteURL");
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-                "enableVNC", true,
-                "enableVideo", true
-        ));
-        Configuration.browserCapabilities = capabilities;
     }
 
     @BeforeEach
@@ -34,6 +30,5 @@ public class WebTestBase {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        Attach.addVideo();
     }
 }

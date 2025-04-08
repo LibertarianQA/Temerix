@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/AllureDemoTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/WebTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/WebTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/HeaderShouldContainMainMenuItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/HeaderShouldContainMainMenuItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/NavigateToContactPageShouldDisplayContactUsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/NavigateToContactPageShouldDisplayContactUsSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,30 +102,7 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.temerix [mobile_tests]">
-    <configuration name="VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":mobile_tests" />
-            <option value="--tests" />
-            <option value="&quot;mobile.androidStudio.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.temerix [allureServe]">
     <configuration name="VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,6 +122,27 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="temerix [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -211,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.temerix [mobile_tests]" />
-        <item itemvalue="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage" />
-        <item itemvalue="Gradle.VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.verifyMobileAppsDevelopmentTextAppearsAfterScrolling" />
         <item itemvalue="Gradle.temerix [allureServe]" />
         <item itemvalue="Gradle.temerix [ui_tests]" />
+        <item itemvalue="Gradle.temerix [allureReport]" />
+        <item itemvalue="Gradle.temerix [mobile_tests]" />
+        <item itemvalue="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +238,8 @@
       <workItem from="1743957196003" duration="9538000" />
       <workItem from="1744016156007" duration="840000" />
       <workItem from="1744042538717" duration="965000" />
-      <workItem from="1744043517097" duration="3847000" />
+      <workItem from="1744043517097" duration="4421000" />
+      <workItem from="1744059710731" duration="9179000" />
     </task>
     <servers />
   </component>
