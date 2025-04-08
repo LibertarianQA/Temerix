@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/HeaderShouldContainMainMenuItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/HeaderShouldContainMainMenuItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/NavigateToContactPageShouldDisplayContactUsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/NavigateToContactPageShouldDisplayContactUsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/СlickFacebookIcon_ShouldNavigateToCorrectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/MetaTagApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/MetaTagApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyOffshoreITTextIsVisibleOnHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyOffshoreITTextIsVisibleOnHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +231,7 @@
       <workItem from="1744016156007" duration="840000" />
       <workItem from="1744042538717" duration="965000" />
       <workItem from="1744043517097" duration="4421000" />
-      <workItem from="1744059710731" duration="17024000" />
+      <workItem from="1744059710731" duration="18353000" />
     </task>
     <servers />
   </component>

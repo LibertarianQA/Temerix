@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.open;
+import static io.qameta.allure.Allure.step;
 
 public class VerifyOffshoreITTextIsVisibleOnHomePage extends AndroidTestBase {
 
@@ -18,9 +19,18 @@ public class VerifyOffshoreITTextIsVisibleOnHomePage extends AndroidTestBase {
     @Owner("Zhuravskyi M.")
     @Test
     void verifyOffshoreITTextIsVisibleOnHomePage() {
-        open("https://temerix.com/");
-        androidActions.closeChromePopupIfPresent();
-        $x("//android.widget.TextView[@text='We specialize in opening long-term offshore IT offices in Ukraine.']")
-                .shouldBe(Condition.visible);
+
+        step("Open temerix.com in mobile browser", () -> {
+            open("https://temerix.com/");
+        });
+
+        step("Close Chrome popup if present", () -> {
+            androidActions.closeChromePopupIfPresent();
+        });
+
+        step("Verify 'We specialize in opening long-term offshore IT offices in Ukraine.' text is visible", () -> {
+            $x("//android.widget.TextView[@text='We specialize in opening long-term offshore IT offices in Ukraine.']")
+                    .shouldBe(Condition.visible);
+        });
     }
 }

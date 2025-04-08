@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static helpers.CustomAllureListener.withCustomTemplates;
+import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PageShouldContainExpectedContactHref {
@@ -22,16 +23,37 @@ public class PageShouldContainExpectedContactHref {
 
     @Test
     void pageShouldContainExpectedContactHref() {
-        Response response = RestAssured.given()
-                .filter(withCustomTemplates())
-                .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
-                .get("https://temerix.com/");
-        assertEquals(200, response.getStatusCode(), "expected status code 200 ");
-        Document doc = Jsoup.parse(response.getBody().asString());
-        var contactLink = doc.select("a[href*='contact']").first();
-        assertNotNull(contactLink);
-        String contactHref = contactLink.attr("href");
-        assertTrue(contactHref.contains("#contact"), "The href value must contain '#contact'");
+
+        Response response = step("Send GET request to temerix.com", () ->
+                RestAssured.given()
+                        .filter(withCustomTemplates())
+                        .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
+                        .get("https://temerix.com/")
+        );
+
+        step("Verify status code is 200", () -> {
+            assertEquals(200, response.getStatusCode(), "expected status code 200");
+        });
+
+        Document doc = step("Parse HTML from response body", () ->
+                Jsoup.parse(response.getBody().asString())
+        );
+
+        var contactLink = step("Find 'contact' link in the page", () ->
+                doc.select("a[href*='contact']").first()
+        );
+
+        step("Verify contact link is present", () -> {
+            assertNotNull(contactLink, "The contact link should be present");
+        });
+
+        String contactHref = step("Extract 'href' value from the contact link", () ->
+                contactLink.attr("href")
+        );
+
+        step("Verify href value contains '#contact'", () -> {
+            assertTrue(contactHref.contains("#contact"), "The href value must contain '#contact'");
+        });
     }
 
 }

@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static helpers.CustomAllureListener.withCustomTemplates;
+import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MetaTagApiTest {
@@ -21,14 +22,26 @@ public class MetaTagApiTest {
 
     @Test
     void descriptionMetaTagShouldBeCorrect() {
-        Response response = RestAssured.given()
-                .filter(withCustomTemplates())
-                .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
-                .get("https://temerix.com/");
-        assertEquals(200, response.getStatusCode());
-        Document doc = Jsoup.parse(response.getBody().asString());
-        String actualDescription = doc.select("meta[name=description]").attr("content");
-        assertEquals("Temerix test task for One Smile Corporation", actualDescription);
+
+        Response response = step("Send GET request to temerix.com", () ->
+                RestAssured.given()
+                        .filter(withCustomTemplates())
+                        .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
+                        .get("https://temerix.com/")
+        );
+
+        step("Verify status code is 200", () -> {
+            assertEquals(200, response.getStatusCode());
+        });
+
+        Document doc = step("Parse HTML from response body", () ->
+                Jsoup.parse(response.getBody().asString())
+        );
+
+        step("Check that meta description is correct", () -> {
+            String actualDescription = doc.select("meta[name=description]").attr("content");
+            assertEquals("Temerix test task for One Smile Corporation", actualDescription);
+        });
     }
 }
 

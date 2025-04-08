@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static helpers.CustomAllureListener.withCustomTemplates;
+import static io.qameta.allure.Allure.step;
 
 public class RestrictedPageShouldReturn404 {
 
@@ -19,10 +20,13 @@ public class RestrictedPageShouldReturn404 {
 
     @Test
     void restrictedPageShouldReturn404() {
-        RestAssured.given()
-                .filter(withCustomTemplates())
-                .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
-                .get("https://temerix.com/admin")
+
+        step("Send GET request to restricted admin page", () ->
+                RestAssured.given()
+                        .filter(withCustomTemplates())
+                        .config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
+                        .get("https://temerix.com/admin")
+        )
                 .then()
                 .statusCode(404);
     }
