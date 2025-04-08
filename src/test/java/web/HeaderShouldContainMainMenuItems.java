@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Selenide.$$;
 import static com.codeborne.selenide.Selenide.open;
+import static io.qameta.allure.Allure.step;
 
 public class HeaderShouldContainMainMenuItems extends WebTestBase {
 
@@ -20,10 +21,15 @@ public class HeaderShouldContainMainMenuItems extends WebTestBase {
     @Owner("Zhuravskyi M.")
 
     @Test
-    void headerShouldContainMainMenuItems(){
+    void headerShouldContainMainMenuItems() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-        open("https://temerix.com");
-        $$("#main-menu li").shouldHave(texts("Services", "About Us", "Recent Projects", "Our Team", "Contact Us"));
+        step("Open the home page", () -> {
+            open("https://temerix.com");
+        });
+
+        step("Check that the main menu contains expected sections", () -> {
+            $$("#main-menu li").shouldHave(texts("Services", "About Us", "Recent Projects", "Our Team", "Contact Us"));
+        });
     }
 }

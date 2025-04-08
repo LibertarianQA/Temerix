@@ -9,8 +9,10 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverConditions.urlContaining;
+import static com.codeborne.selenide.WebDriverConditions.url;
+import static io.qameta.allure.Allure.step;
 
 public class СlickFacebookIcon_ShouldNavigateToCorrectPage extends WebTestBase {
 
@@ -19,13 +21,23 @@ public class СlickFacebookIcon_ShouldNavigateToCorrectPage extends WebTestBase 
     @Owner("Zhuravskyi M.")
 
     @Test
-    void clickFacebookIconShouldNavigateToCorrectPage(){
+    void navigateToContactPageShouldDisplayContactUsSection() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-        open("https://temerix.com/#contact");
-        $("[class='social fb']").click();
-        webdriver().shouldHave(urlContaining("facebook"));
-        webdriver().shouldHave(urlContaining("temerix"));
+        step("Open the home page", () -> {
+            open("https://temerix.com");
+        });
 
+        step("Click on the Contact menu item", () -> {
+            $("[data-menuanchor='contact']").click();
+        });
+
+        step("Verify that the URL changed to the Contact section", () -> {
+            webdriver().shouldHave(url("https://temerix.com/#contact"));
+        });
+
+        step("Verify that the Contact Us section is displayed", () -> {
+            $(".page__border--six .section-title").shouldHave(text("Contact Us"));
+        });
     }
 }

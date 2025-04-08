@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
+import static io.qameta.allure.Allure.step;
 
 public class NavigateToContactPageShouldDisplayContactUsSection extends WebTestBase {
 
@@ -19,12 +20,23 @@ public class NavigateToContactPageShouldDisplayContactUsSection extends WebTestB
     @Tags({@Tag("web"), @Tag("contact"), @Tag("navigate")})
     @Owner("Zhuravskyi M.")
     @Test
-    void navigateToContactPageShouldDisplayContactUsSection(){
+    void navigateToContactPageShouldDisplayContactUsSection() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-        open("https://temerix.com");
-        $("[data-menuanchor='contact']").click();
-        webdriver().shouldHave(url("https://temerix.com/#contact"));
-        $(".page__border--six .section-title").shouldHave(text("Contact Us"));
+        step("Open the home page", () -> {
+            open("https://temerix.com");
+        });
+
+        step("Click on the Contact menu item", () -> {
+            $("[data-menuanchor='contact']").click();
+        });
+
+        step("Verify that the URL changed to the Contact section", () -> {
+            webdriver().shouldHave(url("https://temerix.com/#contact"));
+        });
+
+        step("Verify that the Contact Us section is displayed", () -> {
+            $(".page__border--six .section-title").shouldHave(text("Contact Us"));
+        });
     }
 }
