@@ -22,13 +22,13 @@ public class AndroidTestBase {
     }
 
     @BeforeEach
-     void addListener() {
+    void addListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         androidActions = new AndroidActions();
     }
 
     @AfterEach
-     void afterEach() {
+    void afterEach() {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
 

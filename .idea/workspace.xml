@@ -5,12 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Allure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Android_Studio_Logo_2024.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/GitHub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Gradle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Idea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Jenkins.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Junit5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Rest_Assured.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Selenide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Selenoid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/Temerix_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/allure-ee-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/appium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/docker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/logotypes/jira.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureCustomReports.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureGraphs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureRealTime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureReportBehaviors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureReportMain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureTestOpsTests.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/AppiumInspectorLocator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/BugIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/Dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/JenkinsBuildParametersVersion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/JenkinsMain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/Jira_Allure_Integration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/ManualTestCaseInTestOps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/screenshots/TelegramNotification.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/MetaTagApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/MetaTagApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/PageShouldContainExpectedContactHref.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyMobileAppsDevelopmentTextAppearsAfterScrolling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyOffshoreITTextIsVisibleOnHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/androidStudio/VerifyOffshoreITTextIsVisibleOnHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/RestrictedPageShouldReturn404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/RestrictedPageShouldReturn404.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +69,12 @@
                 <item name="temerix" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="temerix" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -63,61 +98,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programs/IDEA/temerix/src/test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Programs/IDEA/temerix",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programs\IDEA\temerix" />
       <recent name="D:\Programs\IDEA\temerix\src\test" />
       <recent name="D:\Programs\IDEA\temerix\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\IDEA\temerix\media\screenshots" />
+      <recent name="D:\Programs\IDEA\temerix\media\logotypes" />
       <recent name="D:\Programs\IDEA\temerix\src\test\resources\tpl" />
       <recent name="D:\Programs\IDEA\temerix\notification" />
       <recent name="D:\Programs\IDEA\temerix\src\test\java\notifications" />
-      <recent name="D:\Programs\IDEA\temerix\src\test\java" />
-      <recent name="D:\Programs\IDEA\temerix\src\test\java\ui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ui" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.temerix [allureServe]">
-    <configuration name="VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":mobile_tests" />
-            <option value="--tests" />
-            <option value="&quot;mobile.androidStudio.VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="temerix [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,6 +164,27 @@
         <option name="taskNames">
           <list>
             <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="temerix [api_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="api_tests" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -205,10 +239,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.temerix [allureServe]" />
+        <item itemvalue="Gradle.temerix [api_tests]" />
         <item itemvalue="Gradle.temerix [ui_tests]" />
         <item itemvalue="Gradle.temerix [allureReport]" />
         <item itemvalue="Gradle.temerix [mobile_tests]" />
-        <item itemvalue="Gradle.VerifyOffshoreITTextIsVisibleOnHomePage.verifyOffshoreITTextIsVisibleOnHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +265,8 @@
       <workItem from="1744016156007" duration="840000" />
       <workItem from="1744042538717" duration="965000" />
       <workItem from="1744043517097" duration="4421000" />
-      <workItem from="1744059710731" duration="18353000" />
+      <workItem from="1744059710731" duration="19513000" />
+      <workItem from="1744162655630" duration="12211000" />
     </task>
     <servers />
   </component>

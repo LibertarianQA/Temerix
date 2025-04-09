@@ -32,5 +32,4 @@ public class InvalidQueryParamShouldNotBreakSite {
             response.then().statusCode(404);
         });
     }
-
 }

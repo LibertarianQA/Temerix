@@ -30,5 +30,4 @@ public class RestrictedPageShouldReturn404 {
                 .then()
                 .statusCode(404);
     }
-
 }
