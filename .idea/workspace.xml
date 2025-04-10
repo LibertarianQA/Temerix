@@ -5,41 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf49322-db89-4d9e-9b64-c7fdf0d45463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Allure.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Android_Studio_Logo_2024.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/GitHub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Gradle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Idea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Jenkins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Junit5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Rest_Assured.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Selenide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Selenoid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/Temerix_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/allure-ee-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/appium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/docker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logotypes/jira.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureCustomReports.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureGraphs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureRealTime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureReportBehaviors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureReportMain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/AllureTestOpsTests.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/AppiumInspectorLocator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/BugIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/Dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/JenkinsBuildParametersVersion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/JenkinsMain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/Jira_Allure_Integration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/ManualTestCaseInTestOps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/screenshots/TelegramNotification.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/InvalidQueryParamShouldNotBreakSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/RestrictedPageShouldReturn404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/RestrictedPageShouldReturn404.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,21 +66,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Programs/IDEA/temerix",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programs/IDEA/temerix&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programs\IDEA\temerix" />
@@ -130,7 +98,7 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.temerix [allureServe]">
+  <component name="RunManager" selected="Gradle.temerix [web_tests]">
     <configuration name="temerix [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,27 +162,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="temerix [mobile_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="mobile_tests" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="temerix [ui_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -236,13 +183,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="temerix [web_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="web_tests" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.temerix [web_tests]" />
         <item itemvalue="Gradle.temerix [allureServe]" />
         <item itemvalue="Gradle.temerix [api_tests]" />
         <item itemvalue="Gradle.temerix [ui_tests]" />
         <item itemvalue="Gradle.temerix [allureReport]" />
-        <item itemvalue="Gradle.temerix [mobile_tests]" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +234,9 @@
       <workItem from="1744042538717" duration="965000" />
       <workItem from="1744043517097" duration="4421000" />
       <workItem from="1744059710731" duration="19513000" />
-      <workItem from="1744162655630" duration="12211000" />
+      <workItem from="1744162655630" duration="12851000" />
+      <workItem from="1744257558117" duration="1103000" />
+      <workItem from="1744271405774" duration="1024000" />
     </task>
     <servers />
   </component>

@@ -54,7 +54,11 @@ tasks.withType(Test) {
             exceptionFormat "short"
         }
     }
+    systemProperty 'junit.jupiter.execution.parallel.enabled', 'true'
+    systemProperty 'junit.jupiter.execution.parallel.mode.default', 'concurrent'
+    systemProperty 'junit.jupiter.execution.parallel.mode.classes.default', 'concurrent'
 }
+
 
 task api_tests(type: Test) {
     useJUnitPlatform {

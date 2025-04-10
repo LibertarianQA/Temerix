@@ -112,6 +112,28 @@ gradle clean test
 
 [Back to the table of contents ⬆](#TableOfContents)
 
+###  Parallel Test Execution (JUnit 5)
+
+Parallel execution is enabled by default using JUnit 5 configuration.  
+It allows test **methods and classes** to run **concurrently**, speeding up the test run significantly on multi-core systems.
+
+The following system properties are used in `build.gradle`:
+
+```groovy
+systemProperty 'junit.jupiter.execution.parallel.enabled', 'true'
+systemProperty 'junit.jupiter.execution.parallel.mode.default', 'concurrent'
+systemProperty 'junit.jupiter.execution.parallel.mode.classes.default', 'concurrent'
+```
+What it means:
+
+<code>execution.parallel.enabled = true</code> – Enables parallel test execution.
+
+<code>mode.default = concurrent</code> – Allows test methods in the same class to run in parallel.
+
+<code>mode.classes.default = concurrent</code> – Allows different test classes to run in parallel.
+
+[Back to the table of contents ⬆](#TableOfContents)
+
 ## <a name="RunInJenkins">Run in [Jenkins](https://jenkins.autotests.cloud/job/Temerix/)</a>
 
 Main page of the build:
